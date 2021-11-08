@@ -7,9 +7,17 @@
     color: white;
 }
 
+[class *="col"].row {
+    align-items: center;
+    padding: 0.5em;
+}
+
 [class *="col"] [class *="col"] {
-    background-color: green;
-    height: 1.5em;
+    background-color: rgb(43, 255, 0);
+    height: 100%;
+    line-height: 100%;
+    border: 1px solid rgb(0, 102, 255);
+    padding: 0.5em;
 }
 
 .space {
