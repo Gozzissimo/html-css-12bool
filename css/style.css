@@ -1,15 +1,19 @@
-html {
-    color: white;
-}
-
 [class *="col"] {
     background-color: rgb(0, 102, 255);
     border: 1px solid white;
     height: 3em;
     line-height: 3em;
     text-align: center;
+    color: white;
 }
 
-[class *="col"] div{
+[class *="col"] [class *="col"] {
     background-color: green;
+    height: 1.5em;
+}
+
+.space {
+    height: 1em;
+    width: 100%;
+    background-color: white;
 }
